@@ -1,0 +1,38 @@
+{
+    "repos": [
+        {"repo": "example-org/example-repo", "branches": ["develop", "main"], "repoteam": "example-org/example-team"}
+    ],
+    "data": {
+        "Require a pull request before merging": false,
+        "Required approvals count": 0,
+        "Dismiss stale pull request approvals when new commits are pushed": false,
+        "Require review from Code Owners": false,
+        "Restrict who can dismiss pull request reviews": [
+            "${REPOTEAM}"
+        ],
+        "Allow specified actors to bypass pull request requirements": [
+            "${REPOTEAM}"
+        ],
+
+        "Require status checks to pass before merging": false,
+        "Require branches to be up to date before merging": false,
+        "Status checks that are required": [
+            {"Name": "Example Check", "App ID": null}
+        ],
+
+        "Require conversation resolution before merging": false,
+        "Require signed commits": false,
+        "Require linear history": false,
+
+        "Include administrators": false,
+
+        "Restrict who can push to matching branches": [
+            "${REPOTEAM}"
+        ],
+
+        "Allow force pushes": false,
+        "Allow deletions": false
+    },
+    "username": "",
+    "password": ""
+}
