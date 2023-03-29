@@ -33,7 +33,8 @@
         "Allow force pushes": false,
         "Allow deletions": false,
         "Block creations": false,
-        "Lock branch": false
+        "Lock branch": false,
+        "Allow fork syncing": false
     },
     "username": "",
     "password": ""

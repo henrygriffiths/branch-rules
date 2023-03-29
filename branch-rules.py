@@ -142,6 +142,11 @@ for repo in config['repos']:
         else:
             data['lock_branch'] = False
 
+        if inputconfig['Allow fork syncing'] == True:
+            data['allow_fork_syncing'] = True
+        else:
+            data['allow_fork_syncing'] = False
+
 
 
 
