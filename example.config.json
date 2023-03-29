@@ -32,7 +32,8 @@
 
         "Allow force pushes": false,
         "Allow deletions": false,
-        "Block creations": false
+        "Block creations": false,
+        "Lock branch": false
     },
     "username": "",
     "password": ""
