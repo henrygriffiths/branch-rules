@@ -31,7 +31,8 @@
         ],
 
         "Allow force pushes": false,
-        "Allow deletions": false
+        "Allow deletions": false,
+        "Block creations": false
     },
     "username": "",
     "password": ""

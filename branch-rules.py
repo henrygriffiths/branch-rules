@@ -122,6 +122,11 @@ for repo in config['repos']:
         else:
             data['allow_deletions'] = False
 
+        if inputconfig['Block Creations'] == True:
+            data['block_creations'] = True
+        else:
+            data['block_creations'] = False
+
         if inputconfig['Require conversation resolution before merging'] == True:
             data['required_conversation_resolution'] = True
         else:
