@@ -5,6 +5,7 @@
     "data": {
         "Require a pull request before merging": false,
         "Required approvals count": 0,
+        "Require last push approval": false,
         "Dismiss stale pull request approvals when new commits are pushed": false,
         "Require review from Code Owners": false,
         "Restrict who can dismiss pull request reviews": [

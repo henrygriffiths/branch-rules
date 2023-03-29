@@ -75,6 +75,10 @@ for repo in config['repos']:
                 data['required_pull_request_reviews']['required_approving_review_count'] = inputconfig['Required approvals count']
             else:
                 data['required_pull_request_reviews']['required_approving_review_count'] = 0
+            if inputconfig['Require last push approval'] == True:
+                data['required_pull_request_reviews']['require_last_push_approval'] = True
+            else:
+                data['required_pull_request_reviews']['require_last_push_approval'] = False
             data['required_pull_request_reviews']['bypass_pull_request_allowances'] = {}
             data['required_pull_request_reviews']['bypass_pull_request_allowances']['users'] = []
             data['required_pull_request_reviews']['bypass_pull_request_allowances']['teams'] = []
