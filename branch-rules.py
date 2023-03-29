@@ -137,6 +137,11 @@ for repo in config['repos']:
         else:
             data['required_signatures'] = False
 
+        if inputconfig['Lock Branch'] == True:
+            data['lock_branch'] = True
+        else:
+            data['lock_branch'] = False
+
 
 
 
