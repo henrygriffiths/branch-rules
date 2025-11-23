@@ -60,6 +60,9 @@
       "commitMessageAction": "(Major) Update"
     }
   ],
+  "vulnerabilityAlerts": {
+    "dependencyDashboardApproval": true
+  },
   "timezone": "America/Chicago",
   "schedule": [
     "at any time"
